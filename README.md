@@ -13,7 +13,7 @@
 4. [支持的宏](pages/supported_macros.md)
 4. [点击坐标宏替换](pages/click_macros_replace.md)
 
-###广告主，创意上传 API接口
+### 广告主，创意上传 API接口
 
 1. [广告主交及审核结果查询等](pages/advertiser_for_material_submit_and_audit.md)
 2. [物料提交及审核结果查询等](pages/interface_for_material_submit_and_audit.md)
