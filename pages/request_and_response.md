@@ -4,7 +4,7 @@
     - [协议与规则说明 ](#协议与规则说明)
     - [接口注意事项](#接口注意事项)
     - [广告请求](#广告请求)
-        - [接口信息（BidRequest）](#接口信息（BidRequest）)
+        - [接口信息(BidRequest)](#接口信息(BidRequest))
         - [Imp信息（BidRequest.Imp）](#Imp信息（BidRequest.Imp）)
             - [Ext信息（BidRequest.Imp.Ext）](#Ext信息（BidRequest.Imp.Ext）)
             - [Banner信息（BidRequest.Imp.Banner）](#Banner信息（BidRequest.Imp.Banner）)
@@ -46,7 +46,7 @@
 
 ## 广告请求
 
-### 接口信息（BidRequest）
+### 接口信息(BidRequest)
 
 | 字段名称  | 类型   |         | 必须 | 描述                                                                                                                                                     |
 | -------- | ------ | ------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
