@@ -2,10 +2,10 @@
 
 ### 点击坐标说明： 
 
-    downX：点击时的 x 坐标，需要替换宏DOWNX 
-    downY：点击时的 y 坐标，需要替换宏DOWNY 
-    upX：点击抬起时的 x 坐标，需要替换宏UPX 
-    upY：点击抬起时的 y 坐标，需要替换宏 UPY
+    downX：点击时的 x 坐标，需要替换宏__DOWN_X__ 
+    downY：点击时的 y 坐标，需要替换宏__DOWN_Y__ 
+    upX：点击抬起时的 x 坐标，需要替换宏__UP_X__ 
+    upY：点击抬起时的 y 坐标，需要替换宏__UP_Y__
     
 ### 详细说明： 
 
@@ -16,13 +16,13 @@
 
     名称    类型    必填     描述                                  
                       
-    downX  Int      否     手指点击时的横坐 标，需要替换 宏 DOWNX     
+    downX  Int      否     手指点击时的横坐 标，需要替换 宏 __DOWN_X__     
                                                                  
-    downY  Int      否     手指点击时的纵坐 标，需要替换 宏 DOWNY    
+    downY  Int      否     手指点击时的纵坐 标，需要替换 宏 __DOWN_Y__    
 
-    upX    Int      否     手指抬起离开设备 时的横坐标， 需 要替换宏 UPX 
+    upX    Int      否     手指抬起离开设备 时的横坐标， 需 要替换宏 __UP_X__ 
 
-    upY    Int      否     手指抬起离开设备 时的纵坐标， 需 要替换宏 UPY 
+    upY    Int      否     手指抬起离开设备 时的纵坐标， 需 要替换宏 __UP_Y__ 
     
     限制：针对全部。有要求上报点击坐标的，可以按 照此协议拼接点击上报url，当无法获取时，会替换为-999。
-    示例：downX=DOWNX&downY=DOWNY&upX=UPX&upY=UPY 
+    示例：downX=__DOWN_X__&downY=__DOWN_Y__&upX=__UP_X__&upY=__UP_Y__ 
