@@ -257,6 +257,7 @@
 | package_name       | string     |        | 否   | （安卓应用包名、ios 为 APP Store 中的    ID）：下载和 deeplink 类广告建议填写                                                                                                                                                                           |
 | app_name           | string     |        | 否   | 应用名如：“锤子便签”；下载和 deeplink    类广告建议填写                                                                                                                                                                            |
 | app_version        | string     |        | 否   | 应用版本号：下载和 deeplink 类广告填写                                                                                                                                                                          |
+| deeplink_trackers        | string[]   |        | 否   | 吊起APP成功上报监测链接| 
 | video_start        | string[]   |        | 否   | 音/视频广告（播放开始上报） 
 | video_one_quarter  | string[]   |        | 否   | 音/视频广告（播放了 25%上报）  
 | video_one_half     | string[]   |        | 否   | 音/视频广告（播放了 50%上报） 
