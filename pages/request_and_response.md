@@ -194,6 +194,7 @@
 | connectiontype| Int       |        | 否   | 网络类型 （参照[网络类型](appendix/network.md)）  |
 | devicetype    | Int       |        | 否   | 设备类型 （参照[设备类型 ](appendix/device.md)    |                                                           |
 | imei          | String    |        | 否   | imei  for andriod                                             |   
+| oaid          | String    |        | 否   | oaid  for andriod 10+                                            |   
 | imsi          | String    |        | 否   | imsi     |   
 | mac           | String    |        | 否   | mac 地址     |   
 | idfa          | String    |        | 否   | 明文 idfa for ios     |   
