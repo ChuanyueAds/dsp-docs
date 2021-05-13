@@ -35,7 +35,7 @@
 ###  广告主上传API
 
     测试： 
-        |  http://123.57.68.113:8070/openapi/Advertiser/upload  #上传广告主资质           
+        |  http://sspapiad.ms.zhangyue.net:8070/openapi/Advertiser/upload  #上传广告主资质           
            
     正式： 
         |  https://sspapiad.ms.zhangyue.net/openapi/Advertiser/upload   #上传广告主资质        
@@ -118,7 +118,7 @@
 ## 查询广告主状态信息 
 ```
         测试： 
-            |  http://123.57.68.113:8070/openapi/Advertiser/get  #获取广告主上传状态           
+            |  http://sspapiad.ms.zhangyue.net:8070/openapi/Advertiser/get  #获取广告主上传状态           
                
         正式： 
             |  https://sspapiad.ms.zhangyue.net/openapi/Advertiser/get  #获取广告主上传状态        
