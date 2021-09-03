@@ -207,6 +207,8 @@
 | osv           | String    |        | 否   | 操作系统版本      |  
 | h             | String    |        | 否   | 设备屏幕高度       |  
 | w             | String    |        | 否   | 设备屏幕宽度      |  
+| device_boot_mark             | String    |        | 否   | 阿里系客户需要的反作弊字段      |  
+| device_update_mark             | String    |        | 否   | 阿里系客户需要的反作弊字段      |  
 | geo           | Object    |        | 否   | 设备位置属性       |  
 | ext           | String    |        | 否   | 拓展字段        | 
 
