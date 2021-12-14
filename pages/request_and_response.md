@@ -18,6 +18,7 @@
                 - [Deals信息（BidRequest.Imp.Pmp.Deals）](#Deals信息（BidRequest.Imp.Pmp.Deals）)
         - [Device信息（BidRequest.Device）](#Device信息（BidRequest.Device）)
             - [Geo信息（BidRequest.Device.Geo）](#Geo信息（BidRequest.Device.Geo）)
+        - [User信息 (BidRequest.User)](#User信息(BidRequest.User))
     - [广告应答](#广告应答)
          - [接口信息（BidResponse）](#接口信息（BidResponse）)
              - [SeatBid信息（BidResponse.SeatBid）](#SeatBid信息（BidResponse.SeatBid）)
@@ -83,7 +84,7 @@
 | 字段名称       | 类型   |  | 必须 | 描述                                                                                                                                                            |
 | -------------- | ------ | ------ | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | atype          | Int |        | 是   | 广告位支持的交互类型：1=网页打开；（默认） 2=网页打开+点击下载； 3=网页打开+deeplink； 4=(网页打开+点击下载+deeplink)。                                                                                               |
-                                                                                                                                                |
+
 
 #### Banner信息（BidRequest.Imp.Banner）
 
@@ -102,7 +103,7 @@
 | ------------ | ------ | ------ | ---- | ------------------------------------------------------------------------------------------------------- |
 | template_ids | string Array  | | 是   |原生广告模板 ID 数组,返回任一符合模板条件的创意即可（参照[模板定义](template.md)）                                                                            |
 | assets          | Object array  |        | 是   | 原生广告规则要求                                                                          |
-                                                                                             |
+
 ##### Assets信息（BidRequest.Imp.Nativead.Assets）
 
 | 字段名称 | 类型   | 默认值  | 必须  | 描述                                                                         |
@@ -222,6 +223,11 @@
 | lon      | Double    |        | 否   | 经度  |
 | metro    | String    |        | 否   | 省    |                                                           |
 | zip      | String    |        | 否   | zip    | 
+
+#### User信息 (BidRequest.User)
+| 字段名称 | 类型  | 默认值 | 必须 | 描述                                                                         |
+| -------- | ----- | ------ | ---- | ---------------------------------------------------------------------------- |
+| ups  | String array |  | 否 |  | |
 
 ## 返回信息 （BidResponse）
 
