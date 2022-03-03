@@ -280,7 +280,12 @@
 | video_reply        | string[]   |        | 否   | 音/视频广告（重播时上报）   
 | video_close        | string[]   |        | 否   | 音/视频广告（关闭时上报）   
 | video_full         | string[]   |        | 否   | 音/视频广告（全屏时上报）  
-| video_exit_full    | string[]   |        | 否   | 音/视频广告（退出全屏时上报）   
+| video_exit_full    | string[]   |        | 否   | 音/视频广告（退出全屏时上报）
+| dn_start           | string[]   |        | 否   | 下载开始时上报
+| dn_succ            | string[]   |        | 否   | 下载成功时上报
+| dn_inst_start      | string[]   |        | 否   | 安装开始时上报
+| dn_inst_succ       | string[]   |        | 否   | 安装成功时上报
+| dn_active          | string[]   |        | 否   | 安装后打开
 | Ext                | string     |        | 否   | 拓展字段 
 
 ## 向DSP发送的竞价结果接口(Win Notice)
