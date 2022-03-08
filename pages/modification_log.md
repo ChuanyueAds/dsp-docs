@@ -6,3 +6,4 @@
 | v5.0.0 | xz | 2020.07.01 | 行业更换                                             |
 | v5.0.1 | xz | 2020.07.15 | 添加缺少的 2.2.3 点击坐标宏替换             |
 | v5.0.2 | robot | 2020.09.13 | 针对阿里系客户，增加device_boot_mark, device_update_mark字段             |
+| v5.0.3 | robot | 2022.03.08 | 支持小程序预算，applet_source_id（小程序原始id），applet_path（小程序跳转path，非必传）              |
