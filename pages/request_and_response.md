@@ -267,6 +267,8 @@
 | app_name           | string     |        | 否   | 应用名如：“锤子便签”；下载和 deeplink    类广告建议填写                                                                                                                                                                            |
 | app_version        | string     |        | 否   | 应用版本号：下载和 deeplink 类广告填写                                                                                                                                                                          |
 | deeplink_trackers        | string[]   |        | 否   | 吊起APP成功上报监测链接| 
+| applet_source_id        | string   |        | 否   | 微信小程序原始ID| 
+| applet_path        | string   |        | 否   | 微信小程序path| 
 | video_start        | string[]   |        | 否   | 音/视频广告（播放开始上报） 
 | video_one_quarter  | string[]   |        | 否   | 音/视频广告（播放了 25%上报）  
 | video_one_half     | string[]   |        | 否   | 音/视频广告（播放了 50%上报） 
