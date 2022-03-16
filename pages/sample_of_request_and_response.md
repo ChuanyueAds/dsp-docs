@@ -265,9 +265,120 @@
 
   ### 激励视频请求示例
   ```json
+  {
+    "app": {
+        "bundle": "com.chaozh.iReaderFree",
+        "id": "10000",
+        "name": "掌阅",
+        "ver": "3.0.0"
+    },
+    "at": 0,
+    "device": {
+        "androidid": "35c4604658f50abe",
+        "carrier": "46000",
+        "connectiontype": 2,
+        "devicetype": 2,
+        "geo": {
+            "city": "重庆",
+            "country": "中国",
+            "lat": 29.431586,
+            "lon": 106.912251,
+            "metro": "重庆",
+            "zip": "500000"
+        },
+        "h": "360",
+        "imei": "865166027424665",
+        "imei_md5": "e479835e213604320b5bde2991acf2ec",
+        "imsi": "46000",
+        "ip": "14.108.175.73",
+        "mac": "00:DB:96:D2:80:79",
+        "mac_md5": "ab05502f3ab0d9b07ff72cfd9ee383da",
+        "make": "oppo",
+        "model": "r7plus",
+        "operator_type": 1,
+        "os": "Android",
+        "osv": "5.1.1",
+        "ua": "Mozilla/5.0 (Linux; Android 5.1.1; r7plus Build/LMY48Z) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36",
+        "w": "640"
+    },
+    "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
+    "imp": [
+        {
+            "bidfloor": 200,
+            "ext": {
+                "atype": 4
+            },
+            "id": "1",
+            "nativead": {
+                "assets": [
+                    {
+                        "ext": {
+                            "video": {
+                                "mimes": [
+                                    "mp4",
+                                    "flv"
+                                ],
+				"maxduration": 30
+                            }
+                        },
+                        "h": 720,
+                        "id": "2-2",
+                        "w": 1280
+                    }
+                ],
+                "template_ids": [
+                    "2-2"
+                ]
+            },
+            "pid": "10034",
+            "type": 6
+        }
+    ],
+    "test": 0,
+    "user": {
+        "usr": "i3117071792"
+    }
+}
   
-  
-  ```
+ ```
   
  ### 激励视频返回示例
-  
+ 
+ ```json
+  {
+    "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
+    "seatbid": [
+        {
+            "bid": [
+                {
+                    "adck": 1,
+                    "ader_id": "99994",
+                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\",\"videourl\":\"http://iflyad.bjb.openstorage.cn/dsp/material/92ea0a2d5cc49d404517c40acfa51b72.mp4"\",\"videoduration\":30}",
+                    "app_name": "微信",
+                    "app_version": "10.5.1",
+                    "cid": "123321",
+                    "curl": [
+                        "http://www.testthird.com/c"
+                    ],
+                    "durl": "http://gdown.baidu.com/data/wisegame/89eb17d6287ae627/weixin_1300.apk",
+                    "h": 360,
+                    "nurl": [
+                        "http://www.testdsp.com/n"
+                    ],
+                    "package_name": "com.tencent.mm",
+                    "price": 0,
+                    "templateid": "2-2",
+                    "w": 640,
+		    "video_start":["http://www.testdsp.com/video"],
+		    "video_one_quarter":["http://www.testdsp.com/video"],
+		    "video_one_half":["http://www.testdsp.com/video"],
+		    "video_three_quarter":["http://www.testdsp.com/video"],
+		    "video_complete":["http://www.testdsp.com/video"],
+		    "video_skip":["http://www.testdsp.com/video"],
+		    "video_close":["http://www.testdsp.com/video"]
+                }
+            ]
+        }
+    ]
+}
+```
