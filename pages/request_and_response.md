@@ -73,7 +73,7 @@
 | pid       | string |        | 是   | 广告位 ID                                                                                                                          |
 | banner    | object |        | 否   | Banner 广告该字段必须存在                                                                                               |
 | nativead  | object |        | 否   | 原生广告该字段必须存在 
-| video     | object |        | 否   | 视频广告该字段必须存在                                                                                  |
+| video     | object |        | 否   | 视频广告该字段必须存在(目前只有激励视频位置)                                                                                  |
 | pos       | Int |           | 否   | 广告位位置 ID（参照附录 5.1）   
 | bidtype   | Int |           | 否   | 售卖方式，0 = cpm, 1 = cpc,默认值0(暂时只支持cpm) 
 | bidfloor  | Int |           | 是   | 底价，当 bidtype＝0 时，单位:分/CPM；当 bidtype = 1时，单位：分/点击，默认0 
