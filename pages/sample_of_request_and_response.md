@@ -353,7 +353,7 @@
                 {
                     "adck": 1,
                     "ader_id": "99994",
-                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\",\"videourl\":\"http://iflyad.bjb.openstorage.cn/dsp/material/92ea0a2d5cc49d404517c40acfa51b72.mp4"\",\"videoduration\":30}",
+                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\",\"videourl\":\"http://iflyad.bjb.openstorage.cn/dsp/material/92ea0a2d5cc49d404517c40acfa51b72.mp4\",\"videoduration\":30}",
                     "app_name": "微信",
                     "app_version": "10.5.1",
                     "cid": "123321",
