@@ -269,11 +269,11 @@
 | app_name           | string     |        | 否    | 应用中文名如：“锤子便签”；下载和deeplink类广告建议填写|
 | app_version        | string     |        | 否    | 下载合规四要素必传-应用版本号|
 | app_privacy_url    | string     |        | 否    | 下载合规四要素必传-隐私链接|
-| app_perm_url       | string     |        | 否    | 下载合规四要素必传-权限链接|
+| app_perm_content   | string[]     |      | 否    | 下载合规四要素必传-权限列表|
 | app_developer      | string     |        | 否    | 下载合规四要素必传-开发者|
 | app_size           | int        |        | 否    | 下载应用大小，单位(B)字节|
 | deeplink_trackers  | string[]   |        | 否   | 吊起APP成功上报监测链接| 
-| applet_source_id        | string   |        | 否   | 微信小程序原始ID| 
+| applet_source_id   | string   |        | 否   | 微信小程序原始ID| 
 | video_start        | string[]   |        | 否   | 音/视频广告（播放开始上报） 
 | video_one_quarter  | string[]   |        | 否   | 音/视频广告（播放了 25%上报）  
 | video_one_half     | string[]   |        | 否   | 音/视频广告（播放了 50%上报） 
