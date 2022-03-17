@@ -262,9 +262,9 @@
 | w         | int      |        | 否   | 物料宽(建议填写，宽高符合请求中创意要求)                                                                                                                            |
 | h         | int      |        | 否   | 物料高(建议填写，宽高符合请求中创意要求)                                                                                                                                                                                                 |
 | nurl      | string[] |        | 是   | 曝光监测地址，支持价格宏替换                                                                                           |
-| curl      | string[] |        | 否   | 点击监测上报地址                                                                                                                                                                                              |
-| dealid    | string   |        | 否   | PMP 售卖方式必须带上,并且必须跟广告请求    所带相等                                                           |
-| templateid| string   |        | 否   | 原生广告必填（Request 对应的模板 ID）                                                                                                                                                                                              |
+| curl      | string[] |        | 否   | 点击监测上报地址              |
+| dealid    | string   |        | 否   | PMP 售卖方式必须带上,并且必须跟广告请求    所带相等 |
+| templateid| string   |        | 否   | 原生广告必填（Request 对应的模板 ID|
 | package_name       | string     |        | 否    |（安卓应用包名、ios 为 APP Store 中的    ID）：下载和 deeplink 类广告建议填写 |
 | app_name           | string     |        | 否    | 应用中文名如：“锤子便签”；下载和deeplink类广告建议填写|
 | app_version        | string     |        | 否    | 下载合规四要素必传-应用版本号|
@@ -272,8 +272,7 @@
 | app_perm_url       | string     |        | 否    | 下载合规四要素必传-权限链接|
 | app_developer      | string     |        | 否    | 下载合规四要素必传-开发者|
 | app_size           | int        |        | 否    | 下载应用大小，单位(B)字节|
-
-| deeplink_trackers        | string[]   |        | 否   | 吊起APP成功上报监测链接| 
+| deeplink_trackers  | string[]   |        | 否   | 吊起APP成功上报监测链接| 
 | applet_source_id        | string   |        | 否   | 微信小程序原始ID| 
 | video_start        | string[]   |        | 否   | 音/视频广告（播放开始上报） 
 | video_one_quarter  | string[]   |        | 否   | 音/视频广告（播放了 25%上报）  
