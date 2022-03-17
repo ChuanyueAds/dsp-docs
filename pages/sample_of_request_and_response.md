@@ -265,7 +265,7 @@
 
   ### 激励视频请求示例
   ```json
-  {
+{
     "app": {
         "bundle": "com.chaozh.iReaderFree",
         "id": "10000",
@@ -309,26 +309,12 @@
                 "atype": 4
             },
             "id": "1",
-            "nativead": {
-                "assets": [
-                    {
-                        "ext": {
-                            "video": {
-                                "mimes": [
-                                    "mp4",
-                                    "flv"
-                                ],
-				"maxduration": 30
-                            }
-                        },
-                        "h": 720,
-                        "id": "2-2",
-                        "w": 1280
-                    }
-                ],
-                "template_ids": [
-                    "2-2"
-                ]
+            "video": {
+                "mimes": ["mp4","flv"],
+                "minduration": 30,
+                "maxduration": 30,
+                "w": 1280,
+                "h": 720,
             },
             "pid": "10034",
             "type": 6
@@ -352,8 +338,7 @@
             "bid": [
                 {
                     "adck": 1,
-                    "ader_id": "99994",
-                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\",\"videourl\":\"http://iflyad.bjb.openstorage.cn/dsp/material/92ea0a2d5cc49d404517c40acfa51b72.mp4\",\"videoduration\":30}",
+                    "ader_id": "99994",                  
                     "app_name": "微信",
                     "app_version": "10.5.1",
                     "cid": "123321",
@@ -366,9 +351,14 @@
                         "http://www.testdsp.com/n"
                     ],
                     "package_name": "com.tencent.mm",
-                    "price": 0,
-                    "templateid": "2-2",
                     "w": 640,
+		    "reward_video": {
+		    	"duration": 30,
+			"title": "标题",
+			"desc": "描述",
+			"img_url": "xxx.jpg"
+			"video_url": "xxx.mp4"		    
+		    }
 		    "video_start":["http://www.testdsp.com/video"],
 		    "video_one_quarter":["http://www.testdsp.com/video"],
 		    "video_one_half":["http://www.testdsp.com/video"],
