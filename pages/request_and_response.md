@@ -12,7 +12,7 @@
             - [Nativead信息（BidRequest.Imp.Nativead）](#Nativead信息（BidRequest.Imp.Nativead）)
                 - [Assets信息（BidRequest.Imp.Nativead.Assets）](#Assets信息（BidRequest.Imp.Nativead.Assets）)
                    - [Image信息 （BidRequest.Imp.Nativead.Assets.Ext.Image）](#geo%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95bidrequestdevicegeoext)
-                   - [信息流/激励视频信息 （BidRequest.Imp.Nativead.Assets.Ext.Video）](#geo%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95bidrequestdevicegeoext)
+                   - [信息流视频信息 （BidRequest.Imp.Nativead.Assets.Ext.Video）](#geo%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95bidrequestdevicegeoext)
                    - [Icon信息 （BidRequest.Imp.Nativead.Assets.Ext.Icon）](#geo%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95bidrequestdevicegeoext) 
         - [App信息（BidRequest.App）](#App信息（BidRequest.App）)
             - [Pmp信息（BidRequest.Imp.Pmp）](#Pmp信息（BidRequest.Imp.Pmp）)
@@ -131,7 +131,7 @@
 | h                | int          |  | 否   | 素材图片高限制                                                                                |
 | ext              | Object       |  | 否   | 扩展对象                                                                                                                                                |
 
-##### 信息流视频/激励视频信息 （BidRequest.Imp.Nativead.Assets.Ext.Video）
+##### 信息流视频信息 （BidRequest.Imp.Nativead.Assets.Ext.Video）
 
 | 字段名称 | 类型  | 默认值 | 必须 | 描述                                                                          |
 | -------- | ----- | ------ | ---- | ----------------------------------------------------------------------------- |
@@ -151,16 +151,16 @@
 | h           | int    |        | 否   | icon 图片高限制                                                                   |
 | ext         | Object |        | 否   | 扩展对象
 
-#### Video信息（BidRequest.Imp.Video）
+#### 视频/激励视频信息（BidRequest.Imp.Video）
 
 | 字段名称    | 类型  | 默认值 | 必须 | 描述                                                                         |
 | ----------- | ----- | ------ | ---- | ---------------------------------------------------------------------------- |
-| mimes       | string array |        | 否   | 支持的广告播放格式,通常包括 mp4,flv                                                               |                                                         |
+| mimes       | string array |        | 否   | 支持的广告播放格式,目前只有激励视频，支持mp4,flv                                                               |                                                         |
 | minduration | int          |        | 否   | 视频广告最小时长                                                           |
 | maxduration | int          |        | 否   | 视频广告最大时长                                                         |
 | w           | int          |        | 否   | 广告位宽度                                                                   |
 | h           | int          |        | 否   | 广告位高度                                                                   |
-| size        | int          |        | 否   | 视频大小 
+| size        | int          |        | 否   | 视频大小，字节数 
 
 #### Pmp信息（BidRequest.Imp.Pmp）
 
