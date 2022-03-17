@@ -8,7 +8,7 @@
         - [Imp信息（BidRequest.Imp）](#Imp信息（BidRequest.Imp）)
             - [Ext信息（BidRequest.Imp.Ext）](#Ext信息（BidRequest.Imp.Ext）)
             - [Banner信息（BidRequest.Imp.Banner）](#Banner信息（BidRequest.Imp.Banner）)
-            - [Video信息（BidRequest.Imp.Video）](#Video信息（BidRequest.Imp.Video）)
+            - [Video（BidRequest.Imp.Video）](#Video信息（BidRequest.Imp.Video）)
             - [Nativead信息（BidRequest.Imp.Nativead）](#Nativead信息（BidRequest.Imp.Nativead）)
                 - [Assets信息（BidRequest.Imp.Nativead.Assets）](#Assets信息（BidRequest.Imp.Nativead.Assets）)
                    - [Image信息 （BidRequest.Imp.Nativead.Assets.Ext.Image）](#geo%E5%AF%B9%E8%B1%A1%E6%89%A9%E5%B1%95bidrequestdevicegeoext)
@@ -158,8 +158,8 @@
 | mimes       | string array |        | 否   | 支持的广告播放格式,目前只有激励视频，支持mp4,flv                                                               |                                                         |
 | minduration | int          |        | 否   | 视频广告最小时长                                                           |
 | maxduration | int          |        | 否   | 视频广告最大时长                                                         |
-| w           | int          |        | 否   | 广告位宽度                                                                   |
-| h           | int          |        | 否   | 广告位高度                                                                   |
+| w           | int          |        | 否   | 视频广告位宽度                                                                   |
+| h           | int          |        | 否   | 视频广告位高度                                                                   |
 | size        | int          |        | 否   | 视频大小，字节数 
 
 #### Pmp信息（BidRequest.Imp.Pmp）
