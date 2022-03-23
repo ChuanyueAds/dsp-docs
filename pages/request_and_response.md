@@ -266,6 +266,7 @@
 | dealid    | string   |        | 否   | PMP 售卖方式必须带上,并且必须跟广告请求    所带相等 |
 | templateid| string   |        | 否   | 原生广告必填（Request 对应的模板 ID|
 | package_name       | string     |        | 否    |（安卓应用包名、ios 为 APP Store 中的    ID）：下载和 deeplink 类广告建议填写 |
+| appstore_package_name| string |    | 否    |厂商应用商店包名 安卓客户端会用此商店的包进行dp|
 | app_name           | string     |        | 否    | 应用中文名如：“锤子便签”；下载和deeplink类广告建议填写|
 | app_version        | string     |        | 否    | 下载合规四要素必传-应用版本号|
 | app_privacy_url    | string     |        | 否    | 下载合规四要素必传-隐私链接|
