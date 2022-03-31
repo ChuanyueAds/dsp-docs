@@ -269,64 +269,63 @@
   
   ```json
 {
+    "id": "278z7L9sNW1agBs6Hk6DuNfrkdQ",
     "app": {
-        "bundle": "com.chaozh.iReaderFree",
-        "id": "10000",
-        "name": "掌阅",
-        "ver": "3.0.0"
+        "id": "10031",
+        "name": "速看免费小说",
+        "bundle": "com.chaozh.xincao.only.sk",
+        "ver": "7.42.10"
     },
     "at": 0,
     "device": {
-        "androidid": "35c4604658f50abe",
-        "carrier": "46000",
-        "connectiontype": 2,
-        "devicetype": 2,
+        "ua": "Mozilla/5.0 (Linux; Android 5.1.1; vivo V3Max A Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36",
         "geo": {
-            "city": "重庆",
+            "lat": 39.938884,
+            "lon": 116.397459,
             "country": "中国",
-            "lat": 29.431586,
-            "lon": 106.912251,
-            "metro": "重庆",
-            "zip": "500000"
+            "metro": "北京",
+            "city": "北京",
+            "zip": "110000"
         },
-        "h": "360",
-        "imei": "865166027424665",
-        "imei_md5": "e479835e213604320b5bde2991acf2ec",
-        "imsi": "46000",
-        "ip": "14.108.175.73",
-        "mac": "00:DB:96:D2:80:79",
-        "mac_md5": "ab05502f3ab0d9b07ff72cfd9ee383da",
-        "make": "oppo",
-        "model": "r7plus",
-        "operator_type": 1,
+        "ip": "1.202.80.66",
+        "make": "vivo",
+        "model": "vivo V3Max A",
         "os": "Android",
         "osv": "5.1.1",
-        "ua": "Mozilla/5.0 (Linux; Android 5.1.1; r7plus Build/LMY48Z) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36",
-        "w": "640"
+        "imei": "861495032867186",
+        "imei_md5": "31e6646076c8c9028aab8af0d6ecad2f",
+        "androidid": "7b5306ee46f9bd69",
+        "androidid_md5": "e1cd88d497219cf1ab47f22d5d8307f4",
+        "w": "1080",
+        "h": "1920",
+        "devicetype": 2,
+        "connectiontype": 2,
+        "device_boot_mark": "821ed408-c372-4d98-8cdb-de84a6403a02",
+        "device_update_mark": "3618243.199999999"
     },
-    "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
     "imp": [
         {
-            "bidfloor": 200,
+            "id": "1",
+            "video": {
+                "mimes": [
+                    "mp4",
+                    "flv"
+                ],
+                "minduration": 5,
+                "maxduration": 60,
+                "w": 800,
+                "h": 1080,
+                "linearity": 1,
+                "sequence": 1
+            },
             "ext": {
                 "atype": 4
             },
-            "id": "1",
-            "video": {
-                "mimes": ["mp4","flv"],
-                "minduration": 30,
-                "maxduration": 30,
-                "w": 1280,
-                "h": 720,
-            },
-            "pid": "10034",
-            "type": 6
+            "type": 6,
+            "pid": "10283",
+            "bidfloor": 10000
         }
-    ],
-    "test": 0,
-    "user": {
-        "usr": "i3117071792"
-    }
+    ]
 }
   
  ```
