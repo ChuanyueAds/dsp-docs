@@ -306,7 +306,8 @@
 | video_url        | string          |        | 否   | 视频素材地址 |
 | icon_url        | string          |        | 否   | 按钮图片地址 |
 | btn_txt        | string          |        | 否   | 按钮文案 |
-|download_url| string| 否｜当激励视频推广目标是直接下载app时（非跳转应用商店下载），填入此字段| ｜
+|download_url| string| 否｜当激励视频推广目标是直接下载app时（非跳转应用商店下载），填入此字段| 
+
 
 ## 向DSP发送的竞价结果接口(Win Notice)
 
