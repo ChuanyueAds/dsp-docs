@@ -265,7 +265,7 @@
 
 ## 激励视频
 
-  ### 激励视频请求示例 
+  ### 激励视频请求示例 注意：imp[0].type=6 代表激励视频类型
   
   ```json
 {
@@ -315,8 +315,6 @@
                 "maxduration": 60,
                 "w": 800,
                 "h": 1080,
-                "linearity": 1,
-                "sequence": 1
             },
             "ext": {
                 "atype": 4
@@ -334,58 +332,58 @@
  
  ```json
  {
-	"id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
-	"seatbid": [
-		{
-			"bid": [
-				{
-					"adck": 1,
-					"ader_id": "99994",
-					"app_name": "微信",
-					"app_version": "10.5.1",
-                    			"package_name": "com.tencent.mm",
-					"curl": [
-						"http://www.testthird.com/c"
-					],
-					"nurl": [
-						"http://www.testdsp.com/n"
-					],
-					"reward_video": {
-						"duration": 30,
-						"title": "标题",
-						"desc": "描述",
-						"cover_url": "xxx.jpg",
-                        			"video_url": "xxx.mp4",
-                       			 	"icon_url": "xxx.jpg",
-                        			"download_url": "xxx.apk",
-                        			"h": 360,
-                        			"w": 640,
-                        			"end_time": 1648781230
-						},
-                    			"video_start": [
-						"http://www.testdsp.com/video"
-					],
-					"video_one_quarter": [
-						"http://www.testdsp.com/video"
-					],
-					"video_one_half": [
-						"http://www.testdsp.com/video"
-					],
-					"video_three_quarter": [
-						"http://www.testdsp.com/video"
-					],
-					"video_complete": [
-						"http://www.testdsp.com/video"
-					],
-					"video_skip": [
-						"http://www.testdsp.com/video"
-					],
-					"video_close": [
-						"http://www.testdsp.com/video"
-					]
-				}
-			]
-		}
-	]
+    "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
+    "seatbid": [
+        {
+            "bid": [
+                {
+                    "adck": 1,
+                    "ader_id": "99994",
+                    "app_name": "微信",
+                    "app_version": "10.5.1",
+                    "package_name": "com.tencent.mm",
+                    "curl": [
+                        "http://www.testthird.com/c"
+                    ],
+                    "nurl": [
+                        "http://www.testdsp.com/n"
+                    ],
+                    "reward_video": {
+                        "duration": 30,
+                        "title": "标题",
+                        "desc": "描述",
+                        "cover_url": "xxx.jpg",
+                        "video_url": "xxx.mp4",
+                        "icon_url": "xxx.jpg",
+                        "download_url": "xxx.apk",
+                        "h": 360,
+                        "w": 640,
+                        "end_time": 1648781230
+                    },
+                    "video_start": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_one_quarter": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_one_half": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_three_quarter": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_complete": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_skip": [
+                        "http://www.testdsp.com/video"
+                    ],
+                    "video_close": [
+                        "http://www.testdsp.com/video"
+                    ]
+                }
+            ]
+        }
+    ]
 }
 ```
