@@ -255,7 +255,7 @@
 | cid       | string   |        | 是   | 创意 ID：(流量平台创意送审返回的 ID)非白名单广告主必填，白名单广告主非必填，只要填写了平台就会进行审核验证                                                                                                                                                                                                    |
 | price     | Int      |        | 是   | 分/CPM 计，低于底价的将竞价失败                                                                                                                               |
 | adm       | string   |        | 是   | 非信息流广告填写物料访问地址；信息流广告填写信息流模板相关JSON数据并且 templateid 必填， JSON String（详细请参考[模板定义](template.md)）。   
-| reward_video| Object |        | 否   |       激励视频素材信息                |
+| reward_video| Object |        | 否   |       RewardVideo激励视频信息,激励视频广告位必填               |
 | durl      | string   |        | 是   | 到达页地址                       |
 | adck      | Int      |        | 是   | 到达页 durl 打开类型：  1：网页类型（默认）  2：下载类型                                                                                                                                                                            |
 | deep_link | string   |        | 否   | deeplink 地址：(当请求中atype等于3或4时此字段才有效，媒体会优先处理 deep_link,当无法处理deep_link时转而处理durl,如果deep_link可以落地则不会处理durl，无论是否传deep_link 字段，都必须填写 durl 字段; 如果媒体不支持deeplink, 将会直接执行durl)                                                                                                                                                                            |
@@ -306,7 +306,7 @@
 | video_url        | string          |        | 否   | 视频素材地址 |
 | icon_url        | string          |        | 否   | 按钮图片地址 |
 | btn_txt        | string          |        | 否   | 按钮文案 |
-|download_url| string| 否｜当激励视频推广目标是直接下载app时（非跳转应用商店下载），填入此字段|
+|download_url| string| 否｜当激励视频推广目标是直接下载app时（非跳转应用商店下载），填入此字段| ｜
 
 ## 向DSP发送的竞价结果接口(Win Notice)
 
