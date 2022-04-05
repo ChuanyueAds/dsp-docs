@@ -376,14 +376,14 @@
                 {
                     "adck": 1,
                     "ader_id": "99994",
-                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\"}",
+                    "adm": "{\"content\":\"广告描述内容\",\"title\":\"广告标题\",\"imgurl\":\"https://xxx.jpg\",\"videourl\":\"https://xxx.mp4\",\"videoduration\":60,\"expire_time\":1649088000,\"icon\":\"https://xxx.jpg\",\"download_url\":\"https://xxx.apk\"}",
                     "app_name": "微信",
                     "app_version": "10.5.1",
                     "cid": "123321",
                     "curl": [
                         "http://www.testthird.com/c"
                     ],
-                    "durl": "http://gdown.baidu.com/data/wisegame/89eb17d6287ae627/weixin_1300.apk",
+                    "durl": "https://landingpage",
                     "h": 360,
                     "nurl": [
                         "http://www.testdsp.com/n/price=%%PRICE%%"
