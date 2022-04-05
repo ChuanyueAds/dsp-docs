@@ -229,7 +229,7 @@
 
 ### 原生返回示例
 
-1. 注意 1-1 和 1-2 模板json中素材imgurl是字符串数组。2-2模板json中imgurl是字符串
+1. 注意 1-1 和 1-2 模板json中素材imgurl是字符串数组。
 
 2. 请仔细阅读模板定义说明
 
@@ -267,7 +267,9 @@
 
 ## 信息流视频
 
-   ### 信息流视频请求示例
+   ### 信息流视频请求示例 
+   
+   1. 2-2模版为信息流视频
    
    ```
    {
@@ -322,40 +324,6 @@
         {
             "assets": [
             {
-                "ext":
-                {
-                    "image":
-                    {
-                        "h": 720,
-                        "mimes": [
-                            "jpg",
-                            "png"
-                        ],
-                        "w": 1280
-                    }
-                },
-                "h": 720,
-                "id": "1-1",
-                "w": 1280
-            },
-            {
-                "ext":
-                {
-                    "image":
-                    {
-                        "h": 720,
-                        "mimes": [
-                            "jpg",
-                            "png"
-                        ],
-                        "w": 1280
-                    }
-                },
-                "h": 720,
-                "id": "1-2",
-                "w": 1280
-            },
-            {
                "ext":
                 {
                     "image":
@@ -384,9 +352,7 @@
             }
             
             ],
-            "template_ids": [
-                "1-1",
-                "1-2",
+            "template_ids": [         
                 "2-2"
             ]
         },
@@ -399,8 +365,38 @@
    
    ### 信息流视频返回示例
    
-   ```
+   1. 2-2模板json中imgurl是字符串
    
+   ```
+   {
+    "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
+    "seatbid": [
+        {
+            "bid": [
+                {
+                    "adck": 1,
+                    "ader_id": "99994",
+                    "adm": "{\"title\":\"二手汽车哪里有\",\"imgurl\":[\"https://auto1.sinaimg.cn/autoimg/car/23/15/131541523_950.jpg?aid=19624\\u0026cid=11100\\u0026channel=ireader\"],\"content\":\"二手汽车哪里有\"}",
+                    "app_name": "微信",
+                    "app_version": "10.5.1",
+                    "cid": "123321",
+                    "curl": [
+                        "http://www.testthird.com/c"
+                    ],
+                    "durl": "http://gdown.baidu.com/data/wisegame/89eb17d6287ae627/weixin_1300.apk",
+                    "h": 360,
+                    "nurl": [
+                        "http://www.testdsp.com/n/price=%%PRICE%%"
+                    ],
+                    "package_name": "com.tencent.mm",
+                    "price": 100,
+                    "templateid": "2-2",
+                    "w": 640
+                }
+            ]
+        }
+    ]
+}
    ```
    
 
