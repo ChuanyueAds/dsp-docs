@@ -365,7 +365,7 @@
    
    ### 信息流视频返回示例
    
-   1. 2-2模板json中imgurl是字符串
+   1. 2-2模板json中imgurl是字符串 具体参考2-2模版定义
    
    ```
    {
@@ -391,7 +391,28 @@
                     "package_name": "com.tencent.mm",
                     "price": 100,
                     "templateid": "2-2",
-                    "w": 640
+                    "w": 640，
+		   "video_start": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_one_quarter": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_one_half": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_three_quarter": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_complete": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_skip": [
+                       "http://www.testdsp.com/video"
+                   ],
+                   "video_close": [
+                       "http://www.testdsp.com/video"
+                   ]
                 }
             ]
         }
