@@ -58,10 +58,11 @@ E. 2-2 (信息流视频) (部分合作方开放)
     "title":              //标题 尽量填充
     "imgurl": "",         //视频封面素材URL,string类型(请特别注意类型) 尽量填充
     "videourl":"",        //视频URL,string类型 必填
-    "videoduration":1,    //音视频播放时长（秒） Int型 必填
+    "videoduration":60,   //音视频播放时长（秒） Int型 必填
     "content":"",         //摘要 尽量填充
     "icon": "",           //图标url(非必填字段，以媒体列表要求为准)
     "icon_title": ""      //图标 slogan(非必填字段，以媒体列表要求为准)
+    "download_url": ""    //落地页是直接下载apk，也要再填充到这个字段
 }
 ```
 
