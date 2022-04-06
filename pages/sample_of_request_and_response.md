@@ -271,7 +271,7 @@
    
    1. 2-2模版为信息流视频
    
-   ```
+   ```json
    {
     "app":
     {
@@ -367,7 +367,7 @@
    
    1. 2-2模板json中imgurl是字符串 具体参考2-2模版定义
    
-   ```
+   ```json
    {
     "id": "1dRTtwkXJ0WoALPmKMXZscy2iQg",
     "seatbid": [
@@ -391,7 +391,7 @@
                     "package_name": "com.tencent.mm",
                     "price": 100,
                     "templateid": "2-2",
-                    "w": 640，
+                    "w": 640,
 		   "video_start": [
                        "http://www.testdsp.com/video"
                    ],
