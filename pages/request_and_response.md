@@ -270,7 +270,7 @@
 | app_name           | string     |        | 否    | 应用中文名如：“锤子便签”；下载和deeplink类广告建议填写|
 | app_version        | string     |        | 否    | 下载合规四要素必传-应用版本号|
 | app_privacy_url    | string     |        | 否    | 下载合规四要素必传-隐私链接|
-| app_perm_content   | string[]     |      | 否    | 下载合规四要素必传-权限列表|
+| app_perm_content   | string     |      | 否    | 下载合规四要素必传-权限列表, 使用\n分割，例：允许程序访问电话状态\n允许程序通过GPS芯片接收卫星的定位信息 |
 | app_developer      | string     |        | 否    | 下载合规四要素必传-开发者|
 | app_size           | int        |        | 否    | 下载应用大小，单位(B)字节|
 | deeplink_trackers  | string[]   |        | 否   | 吊起APP成功上报监测链接| 
