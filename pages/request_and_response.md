@@ -210,7 +210,9 @@
 | h             | String    |        | 否   | 设备屏幕高度       |  
 | w             | String    |        | 否   | 设备屏幕宽度      |  
 | device_boot_mark             | String    |        | 否   | 阿里系客户需要的反作弊字段      |  
-| device_update_mark             | String    |        | 否   | 阿里系客户需要的反作弊字段      |  
+| device_update_mark             | String    |        | 否   | 阿里系客户需要的反作弊字段      | 
+| appstore_version| string |    | 否    |应用商店版本号，目前只有部分华为手机传递 |
+| huawei_hms_version| string |    | 否    |华为手机hms版本号，目前只有部分华为手机传递。取值示例：1211302，没有小数点 |
 | geo           | Object    |        | 否   | 设备位置属性       |  
 | ext           | String    |        | 否   | 拓展字段        | 
 
